@@ -1,0 +1,225 @@
+{
+    "asset": {
+        "copyright": "2025 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - cfd5f8abf16eac3560f90b27a1db259d32723931",
+        "version": "2.0",
+        "extensions": {
+            "KHR_xmp_json_ld": {
+                "packet": 0
+            }
+        }
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 4232,
+            "type": "VEC3",
+            "max": [
+                0.10447047650814057,
+                0.32624000310897829,
+                0.10420455038547516
+            ],
+            "min": [
+                -0.10447047650814057,
+                0.0,
+                -0.10448622703552246
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4232,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 4232,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 4232,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 6324,
+            "type": "SCALAR",
+            "max": [
+                4231.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 50784,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 50784,
+            "byteLength": 50784,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 101568,
+            "byteLength": 67712,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 169280,
+            "byteLength": 33856,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 203136,
+            "byteLength": 25296,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 228432,
+            "uri": "Deodorant_Box V2_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000005025438440497965,
+                "yfov": 0.691100001335144,
+                "zfar": 0.2763991355895996,
+                "aspectRatio": 1.0
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "composited_baseColor",
+            "uri": "Deodorant_Box V2_images/composited_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "composited_roughness",
+            "uri": "Deodorant_Box V2_images/composited_roughness.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "name": "box",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "folded_paper_box_001_mesh_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "scale": [
+                0.19862070679664613,
+                0.3724251985549927,
+                0.19885879755020142
+            ],
+            "mesh": 0,
+            "name": "folded_paper_box_001_mesh_n3d"
+        },
+        {
+            "translation": [
+                -0.004605555906891823,
+                0.08209781348705292,
+                0.19521524012088777
+            ],
+            "rotation": [
+                -0.05362166836857796,
+                -0.011532861739397049,
+                -0.0006194369052536786,
+                0.9984945058822632
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "composited_baseColor",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "composited_roughness",
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_xmp_json_ld": {
+            "packets": [
+                {
+                    "@context": {
+                        "dc": "http://purl.org/dc/elements/1.1/"
+                    },
+                    "dc:date": "2026-04-25T07:14:33.956Z",
+                    "dc:title": "autosave-202605031020_Deodorant Box V2.dn",
+                    "xmp:CreatorTool": "Adobe Substance 3D Stager"
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "KHR_xmp_json_ld"
+    ]
+}
